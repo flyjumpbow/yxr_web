@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    background: #EFEFEF;
+}
+.page{
+    width: 100%;
+}
+.page-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10.8vh;
+    width: 94%;
+    padding-left: 3%;
+    padding-right:3%;
+    background: #fff;
+    box-shadow:  4px 0 4px 0 #ccc;
+}
+.page-top a{
+    font-size: 30px;
+    font-weight: bold;
+    color: coral;
+    text-decoration: none;
+}
+.page-top p{
+    color: rgb(230, 131, 10);
+}
+.page-con{
+    display: flex;
+    height: 89.2vh;
+    margin-top: 10.8vh;
+}
+.pc-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 89.2vh;
+    padding-top: 10.8vh;
+    background: #fff;
+    box-shadow: 4px 0 4px 0 #ccc;
+}
+.pc-box{
+    width: 84vw;
+    margin-left: 13%;
+}
+.nav{
+    width: 100%;
+    margin-top: 6vh;
+}
+.nav .active,.nav a:hover{
+    color: rgb(217, 174, 33);
+}
+.nav a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    padding: 20px 0;
+}
+.home-top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.xiangce{
+    width: 100%;
+    margin-top: 20px;
+}
+.common-title{
+    font-size: 22px;
+    color: #000000;
+    padding-left: 10px;
+    border-left: 5px solid #000000;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.xiangce-box ul{
+    display: flex;
+    justify-content: space-between;
+}
+.xiangce-box ul li {
+    list-style: none;
+    width: 23%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.xiangce-box ul li img{
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.xiangce-box ul li p{
+    padding: 15px 0;
+    text-align: center;
+    color: #000;
+font-size: 20px;
+}
+.sheng-box{
+    margin: 30px 0;
+}
+.sheng-box-list{
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+}
+.sbl-img img{
+    width: 382px;
+    height: 251px;
+    object-fit: cover;
+}
+.sbl-text{
+    margin-left: 30px;
+}
+.sbl-text h3{
+    font-size: 24px;
+    color: #000000;
+}
+.sbl-text p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #666;
+    line-height: 40px;
+    margin: 20px 0;
+}
+.sbl-text span{
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-page{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px #ccc;
+    margin: 30px 0;
+}
+.about-page-text{
+    width: 60%;
+    padding: 38px 64px;
+}
+.about-page-text h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #2a229c;
+}
+.about-page-text p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1474a1;
+    line-height: 45px;
+}
+.about-page-text p span{
+    margin-right: 20px;
+}
+.about-page-text h2{
+    font-size: 24px;
+    font-weight: 400;
+    color: #2a229c;
+    margin: 30px 0 10px;
+}
+.about-page-img{
+    width: 40%;
+}
+.about-page-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.work-page img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 25%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.work-page p1 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    color: #da6e08;
+    line-height: 25px;
+    margin: 20px 0;
+    padding-left: 45%;
+}
+.work-page p2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    color: #396ba0;
+    line-height: 25px;
+    margin: 20px 0;
+    padding-left: 45%;
+}
+.work-page p3 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    color: #350fbc;
+    line-height: 25px;
+    margin: 20px 0;
+    padding-left: 45%;
+}
+.work-page p4 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    color: #a35269;
+    line-height: 25px;
+    margin: 20px 0;
+    padding-left: 45%;
+}
+.neirong{
+    width: 100%;
+}
+.neirong h1{
+    padding-left: 40%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #000000;
+}
+.neirong p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #090101;
+    line-height: 29px;
+}
+.contact{
+    background: #fff;
+    border-radius: 10px;
+    margin: 40px 0;
+    padding: 40px 35px;
+}
+.ci-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #F7F7F7;
+    padding: 25px;
+    margin: 35px 0 57px;
+}
+.cib-left{
+    display: flex;
+    align-items: center;
+}
+.cib-left span{
+    color: #1474a1;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.cib-left img{
+    width: 136px;
+    height: 136px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.cf form label{
+    display: block;
+    margin-bottom: 20px;
+}
+.cf form label span{
+    float: left;
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    margin-right: 30px;
+    height: 35px;
+    line-height: 35px;
+}
+.cf input{
+    outline: none;
+    width: 480px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: '黑体';
+    border: 1px solid #999999;
+}
+.cf textarea{
+    outline: none;
+    width: 460px;
+    padding: 20px;
+    height: 120px;
+    font-size: 16px;
+    font-family: '黑体';
+    border: 1px solid #999999;
+    border-radius: 6px;
+}
+.cf form input::placeholder,.cf form textarea::placeholder{
+    color: #55555562;
+}
+.cf-btn{
+    margin-left: 160px;
+}
+.cf-btn button{
+    cursor: pointer;
+    width: 100px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 25px;
+    color: #999999;
+    background: #EFEFEF;
+}
+.cf-btn button[type=submit]{
+    color: #fff;
+    background: #E98D0A;
+}
+.cf-btn button:hover{
+    opacity: 0.6;
+}
